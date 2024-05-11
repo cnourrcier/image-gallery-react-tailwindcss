@@ -37,11 +37,6 @@ function App() {
             <ImageCard key={image.id} image={image} searchTerm={(text) => setTerm(text)} />
           ))}
         </div>}
-      {/* <div className="grid grid-cols-3 gap-4">
-          {images.map(image => (
-            <ImageCard key={image.id} image={image} searchTerm={(text) => setTerm(text)} />
-          ))}
-        </div>} */}
     </div>
   )
 
