@@ -1,8 +1,27 @@
-# React + Vite
+# Image Search Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project comprises two primary React components, ImageSearch and ImageCard, designed to facilitate and display image searches.
 
-Currently, two official plugins are available:
+## ImageSearch Component:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Purpose: 
+    - Provides a user interface for searching images by a keyword.
+
+- Functionality:
+    - Uses a controlled input to capture and update the search term.
+    - On form submission, it triggers the searchTerm function with the entered text and then clears the input.
+
+- Design: Features a responsive search bar styled with Tailwind CSS classes for an intuitive user experience.
+
+## ImageCard Component:
+
+- Purpose: 
+    - Displays individual image details and associated tags.
+
+- Functionality:
+    - Shows an image with a link to the full-sized version.
+    - Displays image metadata including the photographer's name, views, downloads, and likes.
+    - Renders tags as clickable buttons that trigger new searches based on the selected tag.
+
+- Design: Utilizes Tailwind CSS for a clean, modern appearance with hover effects for interactivity.
+
