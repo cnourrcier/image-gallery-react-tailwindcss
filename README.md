@@ -1,6 +1,11 @@
 # Image Search Gallery
 
-This project comprises two primary React components, ImageSearch and ImageCard, designed to facilitate and display image searches.
+A React-based application that provides a user interface for searching images by keyword. Each image displays metadata including the photographer's name, views, downloads, and likes.
+
+- [Project Demo](https://image-gallery-react-tailwindcss.onrender.com)
+- [Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
+
+![Project Demo](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719695190/Portfolio%20Projects/imagesearchgallery_ibw6wi.gif)
 
 ## ImageSearch Component:
 
